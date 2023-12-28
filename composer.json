@@ -1,0 +1,24 @@
+{
+    "name": "xenon/datetime-calc",
+    "description": "This is a date time calculation library for php based on Carbon",
+    "authors": [
+        {
+            "name": "Ariful islam",
+            "email": "arif98741@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "php": "^8.0",
+        "nesbot/carbon": ">=2.68.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xenon\\DatetimeCalc\\": "src/"
+        }
+    },
+    "extra": {
+    }
+}
