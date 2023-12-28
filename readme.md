@@ -3,8 +3,7 @@
 <pre>
     $time = new TimeBreakDown(
         startTime: '11:00', 
-        endTime: '12:00', 
-        breakDuration: 0
+        endTime: '12:00'
     );
     $time->setIntervalMinute(30);
     $time->setBreakDuration(2);
